@@ -84,7 +84,7 @@ const services = [
   export default function Services() {
     return (
       <section className="py-16 text-center">
-        <h2 className="text-3xl font-bold text-gray-900">Services</h2>
+        <h2 className="text-5xl font-bold ">Services</h2>
         <p className="text-gray-500 mt-2">Choose from our wide range of services</p>
         <div className="mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 max-w-4xl mx-auto">
           {services.map((service, index) => (
