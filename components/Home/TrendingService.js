@@ -13,7 +13,7 @@ const TrendingService = () => {
       oldPrice: 3500,
       newPrice: 2150,
       rating: 4.3,
-      contact: 'https://wa.me/1234567890',
+      contact: 'https://wa.me/7869277432',
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ const TrendingService = () => {
       oldPrice: null,
       newPrice: 500,
       rating: 4.3,
-      contact: 'https://wa.me/1234567890',
+      contact: 'https://wa.me/7869277432',
     },
   ];
 
