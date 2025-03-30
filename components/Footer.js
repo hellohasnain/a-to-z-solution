@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Footer = () => {
     return (
-        <div className="bg-[#2d4af1] text-white py-8">
+        <div className=" py-8">
             <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-start gap-8">
                 {/* Logo Section */}
                 <div className="flex-1">
@@ -14,21 +14,7 @@ const Footer = () => {
                     />
                 </div>
 
-                {/* Navigation Links */}
-                <div className="flex flex-col space-y-4 flex-1">
-                    <a href="/why-choose-us" className="text-orange-500 hover:text-orange-400">
-                        Why Choose Us
-                    </a>
-                    <a href="/services" className="text-orange-500 hover:text-orange-400">
-                        Services
-                    </a>
-                    <a href="/resources" className="text-orange-500 hover:text-orange-400">
-                        Resources
-                    </a>
-                    <a href="/contact" className="text-orange-500 hover:text-orange-400">
-                        Contact
-                    </a>
-                </div>
+               
 
                 {/* Map Section */}
                 <div className="flex-1">
