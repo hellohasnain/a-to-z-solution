@@ -6,7 +6,7 @@ const FloatingButtons = () => {
       {/* Phone Button */}
       <div className="group relative">
         <a
-          href="tel:03096661919"
+          href="tel:7869277432"
           className="bg-blue-600 text-white p-3 rounded-full shadow-lg flex items-center gap-2 hover:w-40 transition-all duration-300"
         >
           <FaPhoneAlt className="text-xl" />
