@@ -154,25 +154,25 @@ const Navbar = () => {
                             href="#"
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                         >
-                            Lighting Installation
+                            AC Installation
                         </a>
                         <a
                             href="#"
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                         >
-                            Panel Upgrades
+                            AC Services
                         </a>
                         <a
                             href="#"
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                         >
-                            Wiring Services
+                            Kitchen Chimney Instalation and Services
                         </a>
                         <a
                             href="#"
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                         >
-                            Surge Protection
+                            CCTV Sells and Instalation
                         </a>
                         <a
                             href="#"

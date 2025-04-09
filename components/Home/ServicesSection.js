@@ -1,10 +1,11 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const ServicesSection = () => {
     const services = [
         {
             name: 'AC Services',
-            href: 'ac-services',
+            href: "/acservices",
             icon: "/ac.png",
             alt: 'AC Services',
         },
@@ -53,7 +54,7 @@ const ServicesSection = () => {
                         <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 list-none p-0">
                             {services.map((service, index) => (
                                 <li key={index} className="flex flex-col items-center">
-                                    <a href={service.href} className="flex flex-col items-center hover:opacity-80 transition-opacity">
+                                    <Link href={service.href} className="flex flex-col items-center hover:opacity-80 transition-opacity">
                                         <Image
                                             width={50}
                                             height={50}
@@ -64,7 +65,7 @@ const ServicesSection = () => {
                                             className="mb-2"
                                         />
                                         <p className="text-center">{service.name}</p>
-                                    </a>
+                                    </Link>
                                 </li>
                             ))}
                         </ul>
