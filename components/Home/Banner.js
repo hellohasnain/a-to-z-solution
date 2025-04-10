@@ -5,9 +5,9 @@ const Banner = () => {
     <div className='flex justify-around items-center'>
       <div>
         <h1 className='text-6xl font-bold mx-5 mt-10'>Home <br /> Maintenance <br /> Made Easy!!</h1>
-        <p className='text-xl mx-5'>Connecting customers and technicians <br /> for quick, safe, and affordable <br /> bookings.</p>
+        <p className='text-xl mx-5 mt-5'>Connecting customers and technicians <br /> for quick, safe, and affordable <br /> bookings.</p>
         <a href="tel:+1234567890">
-          <button className='bg-blue-700 text-white mx-4 px-2 py-2 rounded-md'>
+          <button className='bg-blue-700 text-white mx-4 px-4 py-3 rounded-md mt-5'>
             Book Now
           </button>
         </a>
