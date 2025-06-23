@@ -11,16 +11,11 @@ const ServicesSection = () => {
         },
         {
             name: 'Home Appliances',
-            href: "/home.png",
+            href: "/homeappliances",
             icon: "/home.png",
             alt: 'Plumber icon'
         },
-        {
-            name: 'Geyser',
-            href: 'electrician-services',
-            icon: '/geyser.png',
-            alt: 'Electrical icon'
-        },
+
         {
             name: 'Electrician',
             href: 'handyman-services',
