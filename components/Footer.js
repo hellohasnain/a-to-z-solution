@@ -2,23 +2,23 @@ import Image from "next/image";
 
 const Footer = () => {
     return (
-        <div className=" py-8">
+        <div className="bg-[#F9F9F9] py-8">
             <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-start gap-8">
                 {/* Logo Section */}
                 <div className="flex-1">
                     <Image
-                        src="/logo2.png"
+                        src="/atoz.png"
                         alt="A to Z Electrical Services"
                         width={200}
                         height={200}
                     />
                 </div>
 
-               
+
 
                 {/* Map Section */}
                 <div className="flex-1">
-                    <div className="bg-gray-200 rounded-lg overflow-hidden w-full h-48">
+                    <div className=" rounded-lg overflow-hidden w-full h-48">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d703.1663271628602!2d81.9552954!3d20.3488079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a2f6f9e2442cc99%3A0x45f5b3547cb63e14!2sA%20TO%20Z%20SOLUTION!5e0!3m2!1sen!2sin!4v1700000000000"
                             width="100%"

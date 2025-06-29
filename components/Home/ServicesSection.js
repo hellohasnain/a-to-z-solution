@@ -13,27 +13,27 @@ const ServicesSection = () => {
             name: 'Home Appliances',
             href: "/homeappliances",
             icon: "/home.png",
-            alt: 'Plumber icon'
+            alt: 'Home Appliances'
         },
 
         {
             name: 'Electrician',
-            href: 'handyman-services',
+            href: 'electrician',
             icon: "/electrician.png",
             alt: 'Electrician icon'
 
         },
         {
             name: 'CCTV Camera',
-            href: 'carpenter-services',
+            href: 'cctv',
             icon: '/cctv.png',
-            alt: 'Carpenter Service'
+            alt: 'CCTV Camera'
         },
         {
-            name: 'Jio Air-Fiber',
-            href: 'painter-services',
+            name: 'Air-Fiber',
+            href: 'airfiber',
             icon: '/jio.png',
-            alt: 'Painter icon'
+            alt: 'Air-Fiber'
         },
 
     ];
@@ -45,15 +45,14 @@ const ServicesSection = () => {
                 <p className="text-gray-500 text-center mb-8">Choose from our wide range of services</p>
 
                 <div className="w-full">
-                    <div className="w-full">
-                        <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 list-none p-0">
+                    <div className="w-full border border-gray-200 rounded-lg p-4 bg-white shadow-md">
+                        <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 ">
                             {services.map((service, index) => (
                                 <li key={index} className="flex flex-col items-center">
                                     <Link href={service.href} className="flex flex-col items-center hover:opacity-80 transition-opacity">
                                         <Image
                                             width={50}
                                             height={50}
-                                            loading="lazy"
                                             alt={service.alt}
                                             src={service.icon}
 

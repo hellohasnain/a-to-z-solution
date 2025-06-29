@@ -45,11 +45,11 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="bg-[#F9F9F9] px-4 py-2 flex items-center justify-between">
+        <nav className="bg-[#F9F9F9] px-4 py-2 flex justify-between items-center">
             <div>
                 <Link href="/">
                     <Image
-                        src="/logo.png"
+                        src="/atoz.png"
                         alt="logo"
                         width={200}
                         height={150}
@@ -62,21 +62,21 @@ const Navbar = () => {
             <div className="hidden sm:flex space-x-6">
                 <Link
                     href="/"
-                    className={`text-black hover:text-[#FC4266] ${pathname === "/" ? "border-b-2 border-[#FC4266]" : ""
+                    className={`text-black text-xl font-bold hover:text-[#FC4266] ${pathname === "/" ? "border-b-2 border-[#FC4266]" : ""
                         }`}
                 >
                     Home
                 </Link>
                 <Link
                     href="/aboutus"
-                    className={`text-black hover:text-[#FC4266] ${pathname === "/aboutus" ? "border-b-2 border-[#FC4266]" : ""
+                    className={`text-black text-xl font-bold hover:text-[#FC4266] ${pathname === "/aboutus" ? "border-b-2 border-[#FC4266]" : ""
                         }`}
                 >
                     About Us
                 </Link>
                 <div
                     onClick={toggleMenu}
-                    className="flex items-center  text-black rounded-md cursor-pointer hover:text-[#FC4266] "
+                    className="flex items-center  text-black text-xl font-bold rounded-md cursor-pointer hover:text-[#FC4266] "
                 >
                     <span>Services</span>
                     {/* Down Arrow (Rotates when open) */}
@@ -122,20 +122,7 @@ const Navbar = () => {
                         >
                             About Us
                         </Link>
-                        <div className="mt-2">
-                            <h3 className="font-bold text-lg">Our Services</h3>
-                            <ul className="list-disc pl-5">
-                                {mainPages.map((page) => (
-                                    <li
-                                        key={page._id}
-                                        onClick={() => router.push(`/${page.pageSlug}`)}
-                                        className="cursor-pointer font-semibold py-1"
-                                    >
-                                        {page.pageTitle}
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
+
                     </div>
                 </div>
             )}
@@ -145,47 +132,37 @@ const Navbar = () => {
                 <div className="hidden sm:block absolute top-16 right-0 w-48 bg-white rounded-md shadow-lg">
                     <div className="py-1">
                         <a
-                            href="#"
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                        >
-                            Electrical Repairs
-                        </a>
-                        <a
-                            href="#"
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                        >
-                            AC Installation
-                        </a>
-                        <a
-                            href="#"
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                            href="acservices"
+                            className="block px-4 py-2 text-xl font-bold text-gray-700 hover:bg-gray-100"
                         >
                             AC Services
                         </a>
                         <a
-                            href="#"
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                            href="homeappliances"
+                            className="block px-4 py-2 text-xl font-bold text-gray-700 hover:bg-gray-100"
                         >
-                            Kitchen Chimney Instalation and Services
+                            Home Appliances
                         </a>
                         <a
-                            href="#"
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                            href="electrician"
+                            className="block px-4 py-2 text-xl font-bold text-gray-700 hover:bg-gray-100"
                         >
-                            CCTV Sells and Instalation
+                            Electrician
                         </a>
                         <a
-                            href="#"
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                            href="cctv"
+                            className="block px-4 py-2 text-xl font-bold text-gray-700 hover:bg-gray-100"
                         >
-                            Emergency Services
+                            CCTV Camera
                         </a>
+
                         <a
-                            href="#"
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                            href="airfiber"
+                            className="block px-4 py-2 text-xl font-bold text-gray-700 hover:bg-gray-100"
                         >
-                            Smart Home Automation
+                            Air-Fiber
                         </a>
+
                     </div>
                 </div>
             )}

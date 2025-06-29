@@ -1,7 +1,7 @@
 import Banner from "@/components/Home/Banner"
-import Reviews from "@/components/Home/Reviews"
 import ServicesSection from "@/components/Home/ServicesSection"
 import TrendingService from "@/components/Home/TrendingService"
+import ReviewSlider from "@/components/ReviewSlider"
 
 const index = () => {
   return (
@@ -9,7 +9,8 @@ const index = () => {
       <Banner />
       <ServicesSection />
       <TrendingService />
-      <Reviews />
+      <ReviewSlider />
+
 
     </div>
   )
