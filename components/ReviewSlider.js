@@ -45,12 +45,7 @@ export default function ReviewSlider() {
                 {reviews.map((review, index) => (
                     <SwiperSlide key={index}>
                         <div className="bg-white p-6 rounded-2xl shadow-md text-center">
-                            {/* <img
-                                src={review.image}
-                                alt={review.name}
-                                className="w-20 h-20 mx-auto rounded-full mb-4 object-cover"
-                            /> */}
-                            <p className="text-gray-600 italic">"{review.feedback}"</p>
+                            <p className="text-gray-600 italic">{review.feedback}</p>
                             <h4 className="text-xl font-semibold mt-4">{review.name}</h4>
                         </div>
                     </SwiperSlide>

@@ -11,7 +11,7 @@ const airfiber = () => {
         },
         {
             icon: <Tag className="w-6 h-6 text-white" />,
-            value: "500",
+            value: "2222",
             label: "Start from",
         },
         {
@@ -72,7 +72,7 @@ const airfiber = () => {
                 </div>
             </div>
             <div className="min-h-screen bg-gray-100 px-4 py-4">
-                <h2 className="text-xl font-bold mb-4">AC Services</h2>
+                <h2 className="text-xl font-bold mb-4">Air Fiber </h2>
                 <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                     {services.map((service, index) => (
                         <Airfibercard key={index} {...service} />

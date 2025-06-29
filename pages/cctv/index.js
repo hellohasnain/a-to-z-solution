@@ -11,7 +11,7 @@ const cctv = () => {
         },
         {
             icon: <Tag className="w-6 h-6 text-white" />,
-            value: "500",
+            value: "6999",
             label: "Start from",
         },
         {
@@ -152,7 +152,7 @@ const cctv = () => {
                 </div>
             </div>
             <div className="min-h-screen bg-gray-100 px-4 py-4">
-                <h2 className="text-xl font-bold mb-4">AC Services</h2>
+                <h2 className="text-xl font-bold mb-4">CCTV Camera</h2>
                 <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                     {services.map((service, index) => (
                         <CctvCard key={index} {...service} />

@@ -10,7 +10,7 @@ const electrician = () => {
         },
         {
             icon: <Tag className="w-6 h-6 text-white" />,
-            value: "500",
+            value: "100",
             label: "Start from",
         },
         {
